@@ -6,7 +6,7 @@ permalink: /writeups/cloud/pwnedlabs/
 
 # Entry Point
 
-`13.50.73.5`
+`13.50.73.5` 
 
 <br><br>
 
