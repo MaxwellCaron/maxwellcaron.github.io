@@ -1,7 +1,5 @@
 ---
-title: Path Traversal to AWS Credentials to S3
-layout: list
-permalink: /writeups/cloud/pwnedlabs/ 
+title: Path Traversal to AWS Credentials to S3 
 ---
 
 # Entry Point
