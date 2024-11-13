@@ -5,13 +5,11 @@
         <div class="container">
             <div class="card-content">
                 <h1>{{ page.title }}</h1>
-
                 {% if page.url contains '/side-projects/' %}
                 {% assign filtered_posts = site.posts | where: 'tags', 'side' %}
                 {% elsif page.url contains '/tools/' %}
                 {% assign filtered_posts = site.posts | where: 'tags', 'tool' %}
-                {% endif %} %}
-
+                {% endif %}
                 <div class="row">
                     {% for post in filtered_posts %}
                     <div class="col s12">
@@ -20,18 +18,21 @@
                                 <h4 class="teal-text light">
                                     <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
                                 </h4>
-                                <p class="black-text">{{ post.excerpt }}</p>
+                                <div class="black-text"> {{ post.excerpt }}</div>
                             </div>
+                            {% if post.external_url %}
                             <a class="btn-floating btn-large waves-effect waves-light github-btn"
-                               href="{{ post.external_url | default: 'https://github.com/MaxwellCaron/' | append: post.title | slugify }}"
-                               target="_blank">
-                                <i class="fa fa-github"></i>
-                            </a>
+                               href="{{ post.external_url }}" target="_blank">
+                                {% else %}
+                                <a class="btn-floating btn-large waves-effect waves-light github-btn"
+                                   href="https://github.com/MaxwellCaron/{{ post.title | slugify }}" target="_blank">
+                                    {% endif %}
+                                    <i class="fa fa-github"></i>
+                                </a>
                         </div>
                     </div>
                     {% endfor %}
                 </div>
-
             </div>
         </div>
     </section>
