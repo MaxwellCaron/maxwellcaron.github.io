@@ -2,273 +2,357 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width initial-scale=1" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8"/>
+    <meta content="width=device-width initial-scale=1" name="viewport"/>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
 
-  <!-- Google Tag Manager -->
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-PGZH8HT');</script>
-  <!-- End Google Tag Manager -->
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+            'gtm.start':
+                new Date().getTime(), event: 'gtm.js'
+        });
+        var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src =
+            'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-PGZH8HT');</script>
+    <!-- End Google Tag Manager -->
 
-  <!-- Materialize - Compiled and minified CSS-->
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css" />
-  <!-- Font Awesome Icon - CSS-->
-  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
-  <!-- Custom Styles-->
-  <link rel="stylesheet" href="/assets/css/style.css" />
-  <title>meeks</title>
+    <!-- Materialize - Compiled and minified CSS-->
+    <link href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css" rel="stylesheet"/>
+    <!-- Font Awesome Icon - CSS-->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet"/>
+    <!-- Custom Styles-->
+    <link href="/assets/css/style.css" rel="stylesheet"/>
+    <title>meeks</title>
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126939217-2"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126939217-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-    gtag('config', 'UA-126939217-2');
-  </script>
+        function gtag() {
+            dataLayer.push(arguments);
+        }
 
-  <!-- Google Site Verification for indexing -->
-  <meta name="google-site-verification" content="_qxK8tePiU2fhnwlwnJ7pkDFnj1k2EiKq_cYGy1Cb84" />
+        gtag('js', new Date());
+
+        gtag('config', 'UA-126939217-2');
+    </script>
+
+    <!-- Google Site Verification for indexing -->
+    <meta content="_qxK8tePiU2fhnwlwnJ7pkDFnj1k2EiKq_cYGy1Cb84" name="google-site-verification"/>
 </head>
 
 <body>
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PGZH8HT"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe>
-  </noscript>
-  
-  <!-- Navigation Menu-->
-  <!-- Nav class 1 -->
-  <nav class="hide-on-small-only">
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+    <iframe height="0"
+            src="https://www.googletagmanager.com/ns.html?id=GTM-PGZH8HT" style="display:none;visibility:hidden" width="0"></iframe>
+</noscript>
+
+<!-- Navigation Menu-->
+<!-- Nav class 1 -->
+<nav class="hide-on-small-only">
     <ul class="side-nav fixed section table-of-contents">
 
-      <li class="logo">
-        <a id="logo-container" aria-label="Navigate to the beginning of the page" href="#intro"
-          class="brand-logo grey-blue-text">
-          <img src="/assets/img/logo.jpg" class="circle img-responsive profile-pic" alt="avatar">
-        </a>
-      </li>
+        <li class="logo">
+            <a aria-label="Navigate to the beginning of the page" class="brand-logo grey-blue-text" href="#intro"
+               id="logo-container">
+                <img alt="avatar" class="circle img-responsive profile-pic" src="/assets/img/logo.jpg">
+            </a>
+        </li>
 
+        <li class="bold">
+            <a aria-label="Navigate to the Projects section" class="teal-text" href="#projects"><i
+                    class="mdi-av-my-library-books small"></i><span>Projects</span></a>
+        </li>
 
-      <li class="bold">
-        <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark teal-text"><i
-            class="mdi-av-my-library-books small"></i><span>Projects</span></a>
-      </li>
+        <li class="sub bold">
+            <a aria-label="Navigate to the Write-Ups section" class="waves-effect waves-dark teal-text" href="/writeups"><i
+                    class="mdi-hardware-keyboard-arrow-right small"></i><span>Write-Ups</span></a>
+        </li>
 
-      <li class="bold">
-        <a aria-label="Navigate to the Competitions section" href="#competitions" class="waves-effect waves-dark teal-text"><i
-            class="mdi-social-people small"></i><span>Competitions</span></a>
-      </li>
-      
-      <li class="bold">
-        <a aria-label="Navigate to the Extracurriculars section" href="#extracurriculars" class="waves-effect waves-dark teal-text"><i
-            class="mdi-social-school small"></i><span>Extracurriculars</span></a>
-      </li>
+        <li class="sub bold">
+            <a aria-label="Navigate to the Tools section" class="waves-effect waves-dark teal-text" href="/tools"><i
+                    class="mdi-hardware-keyboard-arrow-right small"></i><span>Tools</span></a>
+        </li>
 
-      <li class="bold">
-        <a aria-label="Navigate to the Certifications section" href="#certifications" class="waves-effect waves-dark teal-text"><i
-            class="mdi-action-book small"></i><span>Certifications</span></a>
-      </li>
+        <li class="sub bold">
+            <a aria-label="Navigate to the Side Projects section" class="waves-effect waves-dark teal-text" href="/side-projects"><i
+                    class="mdi-hardware-keyboard-arrow-right small"></i><span>Side Projects</span></a>
+        </li>
 
-      <li class="bold">
-        <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark teal-text"><i
-            class="mdi-content-mail small"></i><span>Contact</span></a>
-      </li>
+        <li class="bold">
+            <a aria-label="Navigate to the Competitions section" class="waves-effect waves-dark teal-text"
+               href="#competitions"><i
+                    class="mdi-social-people small"></i><span>Competitions</span></a>
+        </li>
+
+        <li class="bold">
+            <a aria-label="Navigate to the Certifications section" class="waves-effect waves-dark teal-text"
+               href="#certifications"><i
+                    class="mdi-action-book small"></i><span>Certifications</span></a>
+        </li>
+
+        <li class="bold">
+            <a aria-label="Navigate to the Contact section" class="waves-effect waves-dark teal-text" href="#contact"><i
+                    class="mdi-content-mail small"></i><span>Contact</span></a>
+        </li>
 
     </ul>
-  </nav>
+</nav>
 
-  <!-- Nav class 2 -->
-  <nav class="hide-on-large only trigger z-depth-1">
-    <a aria-label="Toggle visibility of the mobile navbar" href="#" data-activates="slide-out"
-      class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+<!-- Nav class 2 -->
+<nav class="hide-on-large only trigger z-depth-1">
+    <a aria-label="Toggle visibility of the mobile navbar" class="button-collapse" data-activates="slide-out"
+       href="#"><i class="mdi-navigation-menu"></i></a>
     <div class="name-title">
-      <a id="name" aria-label="Navigate to the beginning of the page" href="#" class="teal-text">meeks</a>
+        <a aria-label="Navigate to the beginning of the page" class="teal-text" href="#" id="name">meeks</a>
     </div>
-  </nav>
+</nav>
 
-  <!-- Nav class 3 -->
-  <nav class="hide-on-large only">
-    <ul id="slide-out" class="side-nav">
-      <li class="bold">
-        <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark teal-text"><i
-            class="mdi-av-my-library-books small"></i><span>Projects</span></a>
-      </li>
-      <li class="bold">
-        <a aria-label="Navigate to the Competitions section" href="#competitions" class="waves-effect waves-dark teal-text"><i
-            class="mdi-social-people small"></i><span>Competitions</span></a>
-      </li>
-      <li class="bold">
-        <a aria-label="Navigate to the Extracurriculars section" href="#extracurriculars" class="waves-effect waves-dark teal-text"><i
-            class="mdi-social-school small"></i><span>Extracurriculars</span></a>
-      </li>
-      <li class="bold">
-        <a aria-label="Navigate to the Certifications section" href="#certifications" class="waves-effect waves-dark teal-text"><i
-            class="mdi-action-book small"></i><span>Certifications</span></a>
-      </li>
-      <li class="bold">
-        <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark teal-text"><i
-            class="mdi-content-mail small"></i><span>Contact</span></a>
-      </li>
+<!-- Nav class 3 -->
+<nav class="hide-on-large only">
+    <ul class="side-nav" id="slide-out">
+        <li>
+            <a aria-label="Navigate to the Projects section" class="waves-effect waves-dark teal-text" href="#projects"><i
+                    class="mdi-av-my-library-books small"></i><span>Projects</span></a>
+        </li>
+
+        <li class="sub">
+            <a aria-label="Navigate to the Write-Ups section" class="waves-effect waves-dark teal-text" href="/writeups"><i
+                    class="mdi-hardware-keyboard-arrow-right small"></i><span>Write-Ups</span></a>
+        </li>
+
+        <li class="sub">
+            <a aria-label="Navigate to the Tools section" class="waves-effect waves-dark teal-text" href="/tools"><i
+                    class="mdi-hardware-keyboard-arrow-right small"></i><span>Tools</span></a>
+        </li>
+
+        <li class="sub">
+            <a aria-label="Navigate to the Side Projects section" class="waves-effect waves-dark teal-text" href="/side-projects"><i
+                    class="mdi-hardware-keyboard-arrow-right small"></i><span>Side Projects</span></a>
+        </li>
+        <li>
+            <a aria-label="Navigate to the Competitions section" class="waves-effect waves-dark teal-text"
+               href="#competitions"><i
+                    class="mdi-social-people small"></i><span>Competitions</span></a>
+        </li>
+        <li>
+            <a aria-label="Navigate to the Certifications section" class="waves-effect waves-dark teal-text"
+               href="#certifications"><i
+                    class="mdi-action-book small"></i><span>Certifications</span></a>
+        </li>
+        <li>
+            <a aria-label="Navigate to the Contact section" class="waves-effect waves-dark teal-text" href="#contact"><i
+                    class="mdi-content-mail small"></i><span>Contact</span></a>
+        </li>
     </ul>
-  </nav>
+</nav>
 
-  <!-- Main Content-->
-  <main>
+<!-- Main Content-->
+<main>
     <!-- First Section: Heading lines and image -->
-    <section id="intro" class="section scrollspy full-height">
-      <div class="overlay"></div>
-      <div class="container">
-        <div class="col-md-9">
-          <div class="content section-padding valign" style="margin-left: 10%; margin-top: 50px;">
-            <div class="caption">
-              <h2>meeks</h2>
-              <h5>x</h5>
+    <section class="section scrollspy full-height" id="intro">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="col-md-9">
+                <div class="content section-padding valign" style="margin-left: 10%; margin-top: 50px;">
+                    <div class="caption">
+                        <div class="text-3d">meeks</div>
+                        <br>
+                        <h5>Cybersecurity student dedicated to learning new things.</h5>
+                    </div>
+                </div>
             </div>
-            <div class="social">
-              <a href="http://linkedin.com/in/maxwell-caron-6194a7290" target="_blank">
-                <button class="icon-btn linkedin">
-                  <i class="fa fa-linkedin"></i>
-                </button>
-              </a>
-              <a href="https://github.com/MaxwellCaron/" target="_blank">
-                <button class="icon-btn github">
-                  <i class="fa fa-github"></i>
-                </button>
-              </a>
-            </div>
-            <div class='buttons'>
-              <a href="#contact" class="contactme">Contact Me</a>
-            </div>
-          </div>
         </div>
-      </div>
     </section>
 
     <!-- Fourth Section: Projects -->
-    <section id="projects" class="section scrollspy">
-      <h3 class="page-title white-text teal">Projects</h3>
-      <div class="container">
-        <div class="row">
+    <section class="section scrollspy" id="projects">
+        <h3 class="page-title white-text teal">Projects</h3>
+        <div class="container">
+            <div class="row">
 
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img src="/assets/img/x.png" style="height: 100%; width: 100%" class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator teal-text">x</span>
-                <p>
-                  x
-                </p>
-              </div>
-              </div>
+                <div class="col s12 m6 l4">
+                    <div class="card medium">
+                        <a href="/writeups/">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="centered-image white-image" src="/assets/img/file-pen-solid.svg" />
+                            </div>
+                        </a>
+                        <div class="card-content">
+                            <a href="/writeups/" class="card-title activator teal-text"><span>Write-Ups</span></a>
+                            <p>
+                                A collection of write-ups from various online labs.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col s12 m6 l4">
+                    <div class="card medium">
+                        <a href="/tools/">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="centered-image white-image" src="/assets/img/screwdriver-wrench-solid.svg" />
+                            </div>
+                        </a>
+                        <div class="card-content">
+                            <a href="/tools/" class="card-title activator teal-text"><span>Tools</span></a>
+                            <p>
+                                Custom written security tools designed and developed to meet specific needs.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col s12 m6 l4">
+                    <div class="card medium">
+                        <a href="/side-projects/">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="centered-image white-image" src="/assets/img/rocket-solid.svg" />
+                            </div>
+                        </a>
+                        <div class="card-content">
+                            <a href="/side-projects/" class="card-title activator teal-text"><span>Side Projects</span></a>
+                            <p>
+                                Fun projects that are not related to security.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
             </div>
-          </div>
-
-      </div>
+        </div>
     </section>
 
     <!-- Fifth Section -->
-    <section id="competitions" class="section scrollspy">
-      <h3 class="page-title white-text teal">Competitions</h3>
+    <section class="section scrollspy" id="competitions">
+        <h3 class="page-title white-text teal">Competitions</h3>
 
-      <div class="container">
-        <div class="card">
-          <div class="card-content">
-            <h4 class="brown-text light">x</h4>
-            <p>
-              x
-            </p>
-          </div>
+        <div class="container">
+            <div class="card">
+                <div class="card-content">
+                    <h4 class="teal-text light">
+                      CPTC9 SoCal Regionals
+                      <span class="right-align">Nov. 2023</span>
+                    </h4>
+                    <ul>
+                        <li><div class="bold">1st Place</div></li>
+                    </ul>
+                </div>
+            </div>
         </div>
 
-      </div>
-    </section>
-
-    <!-- Sixth Section -->
-    <section id="extracurriculars" class="section scrollspy">
-      <h3 class="page-title white-text teal">Extracurriculars</h3>
-
-      <div class="container">
-        <div class="card">
-          <div class="card-content">
-            <h4 class="brown-text light">x</h4>
-            <p>
-              x
-            </p>
-          </div>
+        <div class="container">
+            <div class="card">
+                <div class="card-content">
+                    <h4 class="teal-text">
+                      WRCCDC Invitationals 1
+                      <span class="right-align">Oct. 2024</span>
+                    </h4>
+                    <ul>
+                        <li><div class="bold">2nd Place</div></li>
+                    </ul>
+                </div>
+            </div>
         </div>
 
-      </div>
+        <div class="container">
+            <div class="card">
+                <div class="card-content">
+                    <h4 class="teal-text">
+                      Hivestorm 2024
+                      <span class="right-align">Oct. 2024</span>
+                    </h4>
+                    <ul>
+                        <li><div class="bold">6th Highest Linux Box Score</div></li>
+                        <li><div class="bold">Top 9% of Teams</div></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
     </section>
 
     <!-- Seventh Section -->
-    <section id="certifications" class="section scrollspy">
-      <h3 class="page-title white-text teal">Certifications</h3>
-      <div class="container">
-        <div class="card">
-          <div class="card-content">
-            <h4 class="brown-text light">x</h4>
-            <p>
-              x
-            </p>
-          </div>
+    <section class="section scrollspy" id="certifications">
+        <h3 class="page-title white-text teal">Certifications</h3>
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m6 l3">
+                    <div class="card medium">
+                        <a href="/">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="centered-image" src="/assets/img/logosecurityplus.svg" />
+                            </div>
+                        </a>
+                        <div class="card-content">
+                            <a href="/" class="card-title activator teal-text"><span>CompTIA Security+</span></a>
+                            <p>
+                                May 29, 2024 - May 29, 2027
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-
-      </div>
     </section>
 
     <!-- Eigth Section -->
-    <section id="contact" class="section scrollspy full-height">
-      <h3 class="page-title white-text teal">Contact</h3>
-      <div class="container">
-        <p>
-          <a aria-label="Email Maxwell" href="mailto:maxwell.caron2@gmail.com" target="_blank" data-position="top"
-            data-tooltip="Email Maxwell" class="btn-floating btn-large waves-effect waves-light teal tooltipped"><i
-              class="fa fa-envelope"></i><a aria-label="Email Maxwell" href="mailto:maxwell.caron2@gmail.com"
-              class="hoverline">maxwell.caron2@gmail.com</a></a>
-        </p>
-        <p>
-          <a aria-label="View Maxwell on GitHub" href="https://github.com/MaxwellCaron" target="_blank"
-            data-position="top" data-tooltip="View Maxwell on GitHub"
-            class="btn-floating btn-large waves-effect waves-light teal tooltipped"><i class="fa fa-github"></i><a
-              aria-label="Maxwell on Github" href="https://github.com/MaxwellCaron" class="hoverline"
-              target="_blank">github.com/MaxwellCaron</a></a>
-        </p>
-        <p>
-          <a aria-label="View Maxwell on LinkedIn" href="https://www.linkedin.com/in/maxwell-caron-6194a7290/" target="_blank"
-            data-position="top" data-tooltip="View Maxwell on LinkedIn"
-            class="btn-floating btn-large waves-effect waves-light teal tooltipped"><i
-              class="fa fa-linkedin"></i><a aria-label="Maxwell on LinkedIn" href="https://www.linkedin.com/in/maxwell-caron-6194a7290/"
-              class="hoverline" target="_blank">linkedin.com/in/maxwell-caron</a></a>
-        </p>
-      </div>
+    <section class="section scrollspy full-height" id="contact">
+        <h3 class="page-title white-text teal">Contact</h3>
+        <div class="container">
+            <p>
+                <a aria-label="Email Maxwell" class="btn-floating btn-large waves-effect waves-light teal tooltipped" data-position="top" data-tooltip="Email Maxwell"
+                   href="mailto:maxwell.caron2@gmail.com" target="_blank"><i
+                        class="fa fa-envelope"></i><a aria-label="Email Maxwell" class="hoverline"
+                                                      href="mailto:maxwell.caron2@gmail.com">maxwell.caron2@gmail.com</a></a>
+            </p>
+            <p>
+                <a aria-label="View Maxwell on GitHub" class="btn-floating btn-large waves-effect waves-light teal tooltipped" data-position="top"
+                   data-tooltip="View Maxwell on GitHub" href="https://github.com/MaxwellCaron"
+                   target="_blank"><i
+                        class="fa fa-github"></i><a
+                        aria-label="Maxwell on Github" class="hoverline" href="https://github.com/MaxwellCaron"
+                        target="_blank">github.com/MaxwellCaron</a></a>
+            </p>
+            <p>
+                <a aria-label="View Maxwell on LinkedIn" class="btn-floating btn-large waves-effect waves-light teal tooltipped"
+                   data-position="top"
+                   data-tooltip="View Maxwell on LinkedIn" href="https://www.linkedin.com/in/maxwell-caron-6194a7290/"
+                   target="_blank"><i
+                        class="fa fa-linkedin"></i><a aria-label="Maxwell on LinkedIn"
+                                                      class="hoverline"
+                                                      href="https://www.linkedin.com/in/maxwell-caron-6194a7290/"
+                                                      target="_blank">linkedin.com/in/maxwell-caron</a></a>
+            </p>
+        </div>
     </section>
-  </main>
+</main>
 
-  <!-- jQuery-->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<!-- jQuery-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 
-  <!-- Materialize - Compiled and minified JavaScript-->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"></script>
-  <script>
+<!-- Materialize - Compiled and minified JavaScript-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"></script>
+<script>
     // Materialize - Initializers
     $(document).ready(function () {
-      $(".scrollspy").scrollSpy()
-      // Initialize collapse button
-      $(".button-collapse").sideNav({
-        menuWidth: 210, // Default is 240
-        edge: "left", // Choose the horizontal origin
-        closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
-      })
+        $(".scrollspy").scrollSpy()
+        // Initialize collapse button
+        $(".button-collapse").sideNav({
+            menuWidth: 210, // Default is 240
+            edge: "left", // Choose the horizontal origin
+            closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
+        })
     })
-  </script>
+</script>
 </body>
 
 </html>

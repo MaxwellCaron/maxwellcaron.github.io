@@ -1,0 +1,8 @@
+repository: MaxwellCaron/maxwellcaron.github.io
+theme: meeks-theme
+collections:
+  posts:
+    output: true
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
