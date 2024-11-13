@@ -1,5 +1,5 @@
 repository: MaxwellCaron/maxwellcaron.github.io
-theme: meeks-theme
+remote_theme: MaxwellCaron/meeks-theme
 collections:
   posts:
     output: true
