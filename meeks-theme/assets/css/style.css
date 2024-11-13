@@ -1,0 +1,678 @@
+.profile-pic {
+    position: relative;
+    max-width: 130px;
+    max-height: 130px;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    /* display: inline-block; */
+
+
+    /* background-size: cover;  */
+    margin: -31px -31px -31px 4px;
+    border: 6px solid rgb(206, 205, 195);
+    border-radius: 50% !important;
+}
+
+.teal-text {
+    color: #60CCF3 !important;
+}
+
+.github-btn {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    background-color: #60CCF3;
+}
+
+.github-btn:hover {
+    background-color: #60CCF3;
+}
+
+p {
+    font-size: 0.85em; /* Scale down the text size to 80% of the default size */
+    margin-top: 30px;
+}
+
+.teal-text a {
+    color: #60CCF3 !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+}
+
+
+h1 {
+    font-size: 2em; /* 2.5em scaled down by 80% */
+    text-transform: uppercase;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.6em; /* 2em scaled down by 80% */
+    /*text-transform: uppercase;*/
+}
+
+h3 {
+    font-size: 1.4em; /* 1.75em scaled down by 80% */
+    /*text-transform: uppercase;*/
+}
+
+h4 {
+    font-size: 1.2em; /* 1.5em scaled down by 80% */
+}
+
+h5 {
+    font-size: 1em; /* 1.25em scaled down by 80% */
+}
+
+h6 {
+    font-size: 0.8em; /* 1em scaled down by 80% */
+}
+
+/*img {*/
+/*    display: block;*/
+/*    margin-left: auto;*/
+/*    margin-right: auto;*/
+/*    border: 3px solid #1C1B1A;*/
+/*    border-radius: 6px;*/
+/*    !*transform: scale(0.8);*!*/
+
+/*}*/
+
+.page-content img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid #1C1B1A;
+    border-radius: 6px;
+}
+
+
+/*.page-content{*/
+/*  !*margin-left: 220px;*!*/
+/*  !*background-color: #2A2A2A !important;*!*/
+/*  padding: 20px;*/
+/*  width: 50%; !* or any width *!*/
+/*  margin: 0 auto; !* auto margin on left and right *!*/
+/*}*/
+
+.page-content {
+    background-color: #2A2A2A;
+    padding-left: 220px;
+    width: 900px; /* Adjust width as needed */
+    margin: 0 auto; /* Center the content */
+    color: #FFFFFF; /* Optional: Set text color for better contrast */
+    /*font-size: 0.9em;*/
+    line-height: 1.7;
+}
+
+/*@media (max-width: 768px) {*/
+/*  .page-content {*/
+/*    padding-left: 0;*/
+/*  }*/
+/*}*/
+
+body {
+    background: url('/assets/img/bg.png') repeat;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+}
+
+.profile-pic img {
+    width: 100%;
+    height: auto;
+}
+
+.tracker {
+    /* visibility: hidden; */
+    position: fixed;
+    /* margin-inline-end: auto;  */
+    bottom: 0;
+    right: 0;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+.social {
+    margin: 0 auto;
+    width: auto;
+    text-align: inherit;
+    /* padding: 10px; */
+}
+
+.icon-btn {
+    margin-left: auto;
+    width: 50px;
+    height: 50px;
+    border: 0;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 30px;
+    line-height: 70px;
+    border-radius: 45px;
+    display: inline-block;
+    margin: 4px;
+}
+
+.icon-btn:active {
+    background-color: #60CCF3 !important; /* Change this to your desired color */
+    /*color: #fff; !* Change this to your desired text color *!*/
+}
+
+.github {
+    color: black;
+}
+
+.linkedin {
+    color: black;
+}
+
+.angellist {
+    color: grey;
+}
+
+.icon-btn:hover {
+    transform: scale(1.10);
+    color: #FFFFFF;
+}
+
+.linkedin:hover {
+    background-color: black;
+}
+
+.angellist:hover {
+    background-color: grey;
+}
+
+.github:hover {
+    background-color: black;
+}
+
+/* Buttons - Read Me, Contact Us */
+
+.readme {
+    position: relative;
+    padding: 11px 35px;
+    background: #fff;
+    color: black;
+    border: 2px solid #fff;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 1px;
+    display: inline-block;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+/* .readme:hover{
+  color: white;
+  background-color: #60CCF3;
+} */
+
+.contactme {
+    position: relative;
+    padding: 11px 35px;
+    background: none;
+    color: #fff;
+    border: 2px solid #fff;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 1px;
+    display: inline-block;
+    margin-top: 1.5em;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.contactme:hover {
+    color: black;
+    background-color: white;
+}
+
+/* main body */
+
+/* body-color */
+
+body {
+    color: #333;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* body {
+  color: black;
+  font-size: 18px;
+} */
+
+/* main a -- links */
+
+/* a {
+  color: #009688;
+} */
+
+/*a {*/
+/*    color: #60CCF3;*/
+/*}*/
+
+/* main blockqoute */
+
+/* blockquote {
+  border-left: 5px solid #795548;
+  color: #795548;
+  font-size: 125%;
+  font-weight: 400;
+  margin: 20px 0;
+  padding-left: 1.5rem;
+} */
+
+/*blockquote {*/
+/*    border-left: 5px solid #795548;*/
+/*    color: #795548;*/
+/*    font-size: 125%;*/
+/*    font-weight: 400;*/
+/*    margin: 20px 0;*/
+/*    padding-left: 1.5rem;*/
+/*}*/
+
+blockquote * {
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* main nav */
+
+nav {
+    background: white;
+    box-shadow: none;
+    height: 0;
+}
+
+/* nav {
+  background: rgb(149, 126, 212);
+  box-shadow: none;
+  height: 0;
+} */
+
+nav i {
+    padding: 0 15px;
+    position: relative;
+    top: 5px;
+}
+
+/* main */
+
+/* main {
+  background: url(../../assets/img/bg.png) repeat;
+  padding-left: 190px;
+} */
+
+main {
+    background: url(/assets/img/bg.png) round;
+    padding-left: 190px;
+}
+
+dl {
+    margin-top: 0.5rem;
+}
+
+dd {
+    display: inline-block;
+    font-weight: 500;
+    margin-left: 0;
+}
+
+dt {
+    display: inline-block;
+    margin-left: 0.5rem;
+}
+
+ul.side-nav {
+    background-color: #1C1B1A;
+    width: 210px;
+}
+
+ul.side-nav li {
+    padding: 0;
+}
+
+/* ul.side-nav.fixed a {
+  box-sizing: content-box;
+  color: rgb(48, 122, 207);
+  display: block;
+  line-height: 100%;
+  padding: 10px 0 12px;
+} */
+
+ul.side-nav.fixed a {
+    box-sizing: content-box;
+    color: rgb(16, 202, 56);
+    display: block;
+    line-height: 100%;
+    padding: 10px 0 12px;
+}
+
+ul.table-of-contents li.logo a.active, ul.table-of-contents li.logo a:hover {
+    border: none;
+    font-weight: 200;
+}
+
+ul.side-nav.fixed li.logo {
+    background-color: #1C1B1A;
+    box-sizing: content-box;
+    min-height: 90px;
+    padding: 30px 30px 60px;
+}
+
+ul.side-nav.fixed li.logo a {
+    font-weight: 200;
+    line-height: 100%;
+}
+
+ul.table-of-contents li:not(.logo) a.active, ul.table-of-contents li:not(.logo) a:hover {
+    background-color: #1C1B1A;
+    border-left: 3px solid;
+}
+
+ul.side-nav.fixed.table-of-contents li:not(.logo) a span, ul#slide-out li:not(.logo) a span {
+    color: #FFFCF0 !important;
+}
+
+li.logo span {
+    display: block;
+    font-size: 14px;
+}
+
+.brand-logo h1 {
+    font-size: inherit;
+    line-height: inherit;
+    margin: inherit;
+    font-weight: inherit;
+}
+
+.container {
+    width: 100%;
+    background-color: #2A2A2A;
+    display: block;
+}
+
+
+.card.medium {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.black-text {
+    color: black;
+}
+
+@media (min-width: 1200px) {
+    #experience .container {
+        width: 860px;
+    }
+}
+
+@media (max-width: 1360px) {
+    .card ul li {
+        font-size: 14px;
+        line-height: 200%;
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 1160px) {
+    .card ul li {
+        line-height: 150%;
+    }
+}
+
+@media (max-width: 992px) {
+    main {
+        padding-left: 0px;
+        padding-top: 64px;
+    }
+
+    ul.side-nav a {
+        line-height: 100%;
+        padding: 0;
+        width: 100%;
+    }
+
+    nav {
+        background: #fff;
+        height: 64px;
+        position: absolute;
+    }
+
+    nav a.button-collapse, nav a.button-collapse i {
+        color: #60CCF3;
+        height: 56px;
+        line-height: 56px;
+    }
+
+    .page-content {
+        padding-left: 0;
+    }
+}
+
+/* Code formatting */
+pre,
+code {
+    font-family: 'Consolas', Courier, monospace; /* Assuming $code-font-family */
+    font-size: 0.825em;
+    border: 1px solid #1C1B1A; /* Assuming $border-color-01 */
+    border-radius: 3px;
+    background-color: #1C1B1A; /* Assuming $code-background-color */
+    line-height: 1.25;
+}
+
+code {
+    padding: 1px 5px;
+}
+
+pre {
+    padding: 8px 11px;
+    overflow-x: auto;
+}
+
+pre > code {
+    border: 0;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.highlight {
+    border-radius: 6px;
+    background: #1C1B1A; /* Assuming $code-background-color */
+}
+
+.highlight .highlighter-rouge {
+    background: #1C1B1A; /* Assuming $code-background-color */
+}
+
+/* Custom scrollbar for code blocks */
+pre::-webkit-scrollbar, code::-webkit-scrollbar {
+    height: 8px; /* Height of the horizontal scrollbar */
+}
+
+pre::-webkit-scrollbar-track, code::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Background of the scrollbar track */
+}
+
+pre::-webkit-scrollbar-thumb, code::-webkit-scrollbar-thumb {
+    background: #888; /* Color of the scrollbar thumb */
+}
+
+pre::-webkit-scrollbar-thumb:hover, code::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Color of the scrollbar thumb on hover */
+}
+
+.timeline {
+    position: relative;
+    max-width: 900px; /* Adjust this value to match other max-widths */
+    margin: 0 auto;
+}
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 3px;
+    background-color: #4a4949;
+    top: 0;
+    bottom: 0;
+    left: 75%;
+    margin-left: -3px;
+}
+
+.timeline-item {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 100%;
+}
+
+.timeline-item::after {
+    content: '';
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    left: 74.1%;
+    background-color: #4a4949;
+    top: 21px;
+    border-radius: 70%;
+}
+
+.timeline-item:nth-child(odd) {
+    left: 0;
+}
+
+.timeline-item:nth-child(even) {
+    left: 100%;
+    transform: translateX(-100%);
+}
+
+.timeline-date {
+    padding: 5px 10px;
+    position: absolute;
+    top: 10px;
+    left: 79%; /* Adjust this value as needed */
+    font-size: small;
+    color: #4a4949;
+    font-weight: bold;
+}
+
+.timeline-content {
+    padding: 5px 10px;
+    background-color: #1C1B1A;
+    position: relative;
+    border-radius: 6px;
+    width: 70%; /* Adjust this value as needed */
+    font-size: small;
+}
+
+.timeline-content:hover {
+    background-color: #4a4949;
+}
+
+.timeline-content a {
+    display: block;
+    color: inherit;
+    text-decoration: none;
+}
+
+@media (max-width: 992px) {
+    .timeline::after {
+        left: 75.5%; /* Adjust the position of the vertical line */
+    }
+
+    .timeline-item::after {
+        left: 74.8%; /* Adjust the position of the dots */
+    }
+
+    .timeline-date {
+        /*left: 20%; !* Adjust the position of the date *!*/
+    }
+
+    .timeline-item:nth-child(even) {
+        left: 0;
+        transform: none; /* Reset the transform for even items */
+    }
+}
+
+.sub {
+    position: relative;
+    left: 25px;
+    max-width: 185px
+}
+
+.table .thread {
+    color: white !important;
+}
+
+/* Example variable values (replace these with your actual values) */
+:root {
+  --spacing-unit: 16px;
+  --table-text-align: left;
+  --table-text-color: white;
+  --table-border-color: #ddd;
+  --table-zebra-color: inherit;
+  --table-header-bg-color: inherit;
+  --table-header-border: #ccc;
+}
+
+/* Tables */
+table {
+  margin-bottom: var(--spacing-unit);
+  width: 100%;
+  text-align: var(--table-text-align);
+  color: var(--table-text-color);
+  border-collapse: collapse;
+  border: 1px solid var(--table-border-color);
+}
+
+table tr:nth-child(even) {
+  background-color: var(--table-zebra-color);
+}
+
+table th,
+table td {
+  padding: calc(var(--spacing-unit) * 0.333) calc(var(--spacing-unit) * 0.5);
+}
+
+table th {
+  background-color: var(--table-header-bg-color);
+  border: 1px solid var(--table-header-border);
+}
+
+table td {
+  border: 1px solid var(--table-border-color);
+}
+
+/* Media query for laptop screens */
+@media (max-width: 1024px) {
+  table {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+  }
+}
+
+
+ul, ol {
+    margin-left: 0px; /* Adjust this value to reduce the indent */
+}
+
+p a {
+    color: #60CCF3 !important;
+    padding-right: 0 !important;
+    margin-right: 0 !important;
+    padding-bottom: 10px;
+}

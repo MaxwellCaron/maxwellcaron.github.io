@@ -1,0 +1,12 @@
+<html lang="en">
+{% include nav.html %}
+<main class="page-content" aria-label="Content">
+    <section class="section scrollspy">
+        <div class="container">
+            <div class="card-content">
+                {{ content | convert_image_format }}
+            </div>
+        </div>
+    </section>
+</main>
+</html>
